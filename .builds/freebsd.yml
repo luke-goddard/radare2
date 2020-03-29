@@ -22,6 +22,6 @@ tasks:
         export LD_LIBRARY_PATH=${HOME}/install/lib:${HOME}/install/lib64:${LD_LIBRARY_PATH}
         export PKG_CONFIG_PATH=${HOME}/lib/pkgconfig:${PKG_CONFIG_PATH}
         gmake install
-        # Running the new V suite
-        cd test && gmake src/r2r
+        # Running the test suite
+        cd test && gmake
 
